@@ -6,3 +6,8 @@
 !.github/
 !.github/**
 !index.html
+
+# Full site (site-buildout, 2026-11-20): the generated output only. generate.js, build-*.js,
+# content/, site.config.js, _src/, _source/, _work/, AUTOPILOT.json and every .md stay local.
+!_site/
+!_site/**
