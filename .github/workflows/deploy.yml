@@ -25,7 +25,7 @@ jobs:
       - name: Check the committed full site is there
         run: test -f _site/index.html && test -f _site/services/index.html && test -f _site/about/index.html
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: '_site'
       - uses: actions/deploy-pages@v4
